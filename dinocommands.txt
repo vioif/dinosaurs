@@ -13,3 +13,5 @@ and t_order = 'Saurischia';
 6. UPDATE dinos
 set name = 'Shortie'
 where length = (select min(length) from dinos);
+
+7. SELECT * from dinos order by ASC;
