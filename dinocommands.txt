@@ -2,4 +2,14 @@
 
 2. SELECT * from dinos where period = 'Jurassic';
 
-3. SELECT sum * from dinos where period = 'Cretaceous';
+3. SELECT sum from dinos where period = 'Cretaceous';
+
+4. SELECT * from dinos where period = 'Jurassic' or 'Cretaceous'
+  order by ASC
+
+5. SELECT * from dinos where diet = 'Herbivorous'
+and t_order = 'Saurischia';
+
+6. UPDATE dinos
+set name = 'Shortie'
+where length = (select min(length) from dinos);
