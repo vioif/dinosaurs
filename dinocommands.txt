@@ -1,0 +1,5 @@
+1. SELECT count (species) from dinos;
+
+2. SELECT * from dinos where period = 'Jurassic';
+
+3. SELECT sum * from dinos where period = 'Cretaceous';
